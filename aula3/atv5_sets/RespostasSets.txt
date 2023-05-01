@@ -1,0 +1,24 @@
+1 - Como criar um Set em Kotlin com os números de 1 a 5?
+2 - Como verificar se um determinado elemento existe em um Set em Kotlin?
+3 - Como remover um elemento específico de um Set em Kotlin?
+
+1.
+R: Existem várias formas de criar Set's em Kotlin, sendo uma delas:
+
+var 'nome' = HashSet<Int>()
+
+para adicionar números de 1 a 5, podemos utilizar um laço de repetição da seguinte forma:
+
+var set = HashSet<Int>()
+repeat(5) {
+    set.add(it)
+}
+
+2.
+R: Para verificar se um elemento existe em um Set, podemos utilizar a função contains() passando como argumento um número:
+set.contains(valor)
+
+
+3.
+R: Para remover um elemento específico de um Set, podemos usar a função remove() passando como argumento um número:
+set.remove(valor)

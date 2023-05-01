@@ -1,0 +1,15 @@
+1 - Como criar um Map em Kotlin com as cores e seus respectivos códigos RGB?
+2 - Como verificar se um determinado elemento existe em um Map em Kotlin?
+3 - Como remover um elemento específico de um Map em Kotlin?
+
+1.
+R: Há várias formas de criar um Map, uma delas é utilizando HashMap e especificando o tipo da chave e do valor:
+assim ficaria o código: var rgb = HashMap<CODIGO, COR>()
+
+2. 
+R: Para verificar se um elemento existe em um mapa, podemos utilizar a função containsKey() ou containsValue()
+
+3.
+R: Para remover um elemento, podemos utilizar a função remove(), passando a chave ou a chave e o valor como argumento:
+mapa.remove(CHAVE)
+mapa.remove(CHAVE, VALOR)

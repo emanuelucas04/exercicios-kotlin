@@ -1,0 +1,20 @@
+1 - Como criar uma lista em Kotlin com os números de 1 a 10?
+2 - Como adicionar um elemento na posição 2 de uma lista já existente em Kotlin?
+3 - Como remover o último elemento de uma lista em Kotlin?
+
+
+1.
+R: Há várias formas de criar listas em Kotlin, uma delas: var "nome" = ArrayList<TIPO>()
+para adicionar os números de 1 a 10, podemos utilizar um laço de repetição como o REPEAT, passando como argumento o número 10 e ir adicionando cada número da iteração, assim ficaria o código:
+
+var lista = ArrayList<Int>()
+repeat(10) {
+    lista.add(it)
+}
+
+2.
+R: Para adicionar um número na posição 2, podemos acessar o índice e adicionar o valor desejado:
+lista[2] == {numero}
+
+3.
+R: Para remover o último elemento, podemos utilizar a função removeLast() ou podemos utilizar a função remove() passando como índice a posição -1
